@@ -1,0 +1,59 @@
+$white: #FFFFFF;
+$green: #2bb073;
+$blue: #3a4bef;
+$yellow: #e1be44;
+$red: #ec5151;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+*:focus{
+  outline: none;
+}
+
+body{
+  font-family: Lato, serif;
+  font-size: 12px;
+  background: $white;
+  font-weight: 400;
+}
+
+.bold, strong{
+  font-weight: 900;
+}
+
+
+h1, h2, h3{
+  font-weight: 400;
+}
+
+a, a:hover, a:focus, a:visited{
+  text-decoration: none;
+}
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.player{
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  transition: all 0.5s linear 0s;
+  background: #000000;
+
+  video{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
+}

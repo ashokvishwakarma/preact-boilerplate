@@ -41,19 +41,3 @@ a, a:hover, a:focus, a:visited{
 .uppercase{
   text-transform: uppercase;
 }
-
-.player{
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-  transition: all 0.5s linear 0s;
-  background: #000000;
-
-  video{
-	height: 100%;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-  }
-}
